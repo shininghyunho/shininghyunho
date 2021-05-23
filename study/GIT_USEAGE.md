@@ -3,7 +3,7 @@
 ## 명령어
 - commit
 	일종의 스냅샷. 코드를 add하고 commit 하면 새로운 버전의 스냅샷이 생성됨.
-	ex) git commit
+	ex) git commit -m 'commit exaplain'
 - branch
 	특정 커밋에 대한 참조. 많이 만들어도 디스크나 메모리 공간에 부담이 되지않음. 매번 새로운 기능을 만들때 항상 branch를 여러개 만드는게 중요.
 	ex) git branch branchName (브랜치 생성), branch - f foo c3 (foo브랜치를 c3로 이동)

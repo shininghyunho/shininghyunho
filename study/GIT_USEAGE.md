@@ -44,10 +44,36 @@
 	ex) git reset c1 (현재 HEAD 커밋을 c1으로 되돌림)
 	
 - revert
-	
-	원격 환경에서 사용됨. 특정 작업을 되돌리는데 변경사항을 원래대로 되돌리고 복사본을 commit함
-	
-	ex) git revert c2 (c2`이 새로 커밋됨) 
+
+  원격 환경에서 사용됨. 특정 작업을 되돌리는데 변경사항을 원래대로 되돌리고 복사본을 commit함
+
+  ex) git revert c2 (c2`이 새로 커밋됨) 
+
+- fetch
+
+  원격으로부터 로컬 환경을 동기화시킴.
+
+  원격 저장소에는 있지만 로컬에는 없는 커밋들을 다운받아오고, 로컬에 원격 브랜치가 가리키는 곳을 업데이트함(origin/main 같은)
+
+  그러나 로컬 환경을 변경시키지는 않음. 그래서 현재 작업중이라면 fetch가 안전함.
+
+- pull
+
+  git fetch + git merge origin/main. 가져와서 바로 머지시킴.
+
+  ex) git pull
+
+  merge 대신 rebase를 하고싶으면
+
+  ex) git pull --rebase
+
+- push
+
+  로컬 환경을 원격 환경에 동기화 시킴.
+
+  ':'을 명시하면 방향성을 표시할 수도 있음. 
+
+  ex) git push origin main (origin(원격) 에 main(로컬) 브랜치를 동기화해줌)
 ### 로그확인
 - log
 

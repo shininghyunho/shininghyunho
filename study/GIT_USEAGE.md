@@ -81,6 +81,34 @@
 
   ex) git log --graph --oneline --all (커밋 내역을 한줄로 확인)
 
+### GIT Repo 최조 생성시
+
+#### 로컬 환경이 없을때
+
+`echo "# jpabook_for_study" >> README.md` // readme 생성
+
+`git init` // 초기화
+
+`git add README.md` // readmd stage
+
+`git commit -m "first commit"` // commit
+
+`git branch -M main` // 현재 브랜치를 매인으로 정함
+
+`git remote add origin https://github.com/shininghyunho/jpabook_for_study.git` // 원격 연결
+
+`git push -u origin main` // 앞으로 git push만 해도 main이 올라감
+
+
+
+#### 로컬 환경이 있을때
+
+```
+git remote add origin https://github.com/shininghyunho/jpabook_for_study.git
+git branch -M main
+git push -u origin main
+```
+
 ## 참고
 - [git 브랜치 시뮬레이터](https://learngitbranching.js.org/?locale=ko)
 

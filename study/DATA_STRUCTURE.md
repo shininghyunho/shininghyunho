@@ -80,6 +80,8 @@ DAG(Directed Acyclic Graph) 중 하나. 노드와 간선으로 이루어져 있�
 
 Red, Black으로만 이루어진 BST. Balance 되어 있어 모든 리프 노드까지의 Black 노드 접근 수가 같다. (최소와 최대가 2배 이하). 그리고 아래 4개의 Rule을 지켜야한다.
 
+비슷한 알고리즘으로는 AVL이 있다. AVL이 더욱 엄격한 균형을 이루고 있어 더 빠른 조회가 가능하다. 대신 RBT는 회전이 거의 이루어지지 않아 AVL보다 빠르게 삽입 제거가 가능하다. 이러한 특성때문에 RBT는 맵, c++의 멀티캐스트, Java treeMap 등 대부분의 언어 라이브러리에서 사용되고 AVL은 더 빠른 검색을 요구하는 데이터베이스에서 사용된다.
+
 #### Rule
 
 1. Root Property : 루트노드는 Black
@@ -99,3 +101,12 @@ Red, Black으로만 이루어진 BST. Balance 되어 있어 모든 리프 노드
 
 [참고](https://zeddios.tistory.com/237)
 
+[위키피디아](https://ko.wikipedia.org/wiki/%EB%A0%88%EB%93%9C-%EB%B8%94%EB%9E%99_%ED%8A%B8%EB%A6%AC)
+
+[시뮬레이터](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)
+
+### Question
+
+- RBT 구현해보기 -> [python](./RedBlackTree.py)
+
+- AVL의 동작 이해와 차이점

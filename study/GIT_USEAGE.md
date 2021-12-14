@@ -31,6 +31,8 @@
 	
 	ex) git checkout foo (foo 브랜치로 이동)
 	
+	remote branch를 checkout 하는 방법 : git checkout -t remote/branchname
+	
 - cherry-pick
 	
 	이름같이 체리처럼 행동함. 자기 아래로 다른 커밋들을 복사해 가져옴. rebase 대신해 사용가능.

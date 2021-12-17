@@ -31,7 +31,7 @@
 	
 	ex) git checkout foo (foo 브랜치로 이동)
 	
-	remote branch를 checkout 하는 방법 : git checkout -t remote/branchname
+	remote branch를 checkout 하는 방법 : git checkout -t origin/branchname
 	
 - cherry-pick
 	

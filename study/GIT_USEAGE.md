@@ -110,6 +110,11 @@ git remote add origin https://github.com/shininghyunho/jpabook_for_study.git
 git branch -M main
 git push -u origin main
 ```
+---
+### github에서 삭제한 branch 가 local에 남아있을때
+```
+git remote prune origin
+```
 
 ## 참고
 - [git 브랜치 시뮬레이터](https://learngitbranching.js.org/?locale=ko)

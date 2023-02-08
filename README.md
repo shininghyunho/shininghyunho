@@ -14,3 +14,5 @@
 
 - Email : gusgh3315@gmail.com
 - Github : [https://github.com/shininghyunho](https://github.com/shininghyunho)
+
+### [포트폴리오](https://chaegang.notion.site/22c01fbe53c4448e82e368c6cb1fcef3)

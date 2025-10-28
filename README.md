@@ -10,9 +10,4 @@
 - 왜라는 질문을 항상 갖기 위해 노력합니다.
 - 한가지 일에 몰두하고 끝까지 성취했을때 즐거움을 느낍니다.
 
-### Contact
-
-- Email : gusgh3315@gmail.com
-- Github : [https://github.com/shininghyunho](https://github.com/shininghyunho)
-
-### [포트폴리오](https://chaegang.notion.site/22c01fbe53c4448e82e368c6cb1fcef3)
+(2026년 2월 업데이트 예정)

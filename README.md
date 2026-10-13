@@ -4,7 +4,7 @@
 도구보단 원리를, 느낌보단 원칙을 중요시하는 백엔드 개발자입니다. </br>
 AI 시대에도 필요한 개발자가 되기위해 늘 고민중입니다.
 
-## 🛠 Tech stack
+# 🛠 Tech stack
 
 💪 자신있어요
 
@@ -27,13 +27,12 @@ AI 시대에도 필요한 개발자가 되기위해 늘 고민중입니다.
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
 
-## 📫 Contact
+# 📫 Contact
 
 - Email: gusgh3315@gmail.com  
 - Blog: https://shininghyunho.tistory.com
 
----
-## 📊 Stats
+# 📊 Stats
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=gusgh3315)](https://solved.ac/gusgh3315)
